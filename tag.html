@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--如果是IE浏览器，就会调用最新的渲染引擎进行处理-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--视口标准设置-->
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+    <!--标签-->
+    <title>项目实战</title>
+    <!-- Bootstrap:核心css文件 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--要注意自定义的样式要放在bootstrap下面,覆盖上面的样式-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<!--导航-->
+<!--设置导航default样式默认,fixed-top固定-->
+<nav class='navbar navbar-default navbar-fixed-top'>
+    <!--固定宽度值-->
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class='navbar-toggle' data-toggle='collapse' data-target=".navbar-collapse">
+                <!--一个表示一根线-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--brand表示logo-->
+            <a href="index.html" class='navbar-brand'>Larber Admin</a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class='navbar-collapse  collapse'>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><span class='glyphicon glyphicon-home'></span>&nbsp;&nbsp;后台首页</a></li>
+                <li><a href="user_list.html"><span class='glyphicon glyphicon-user'></span>&nbsp;&nbsp;用户管理</a></li>
+                <li><a href="content.html"><span class='glyphicon glyphicon-list-alt'></span>&nbsp;&nbsp;内容管理</a></li>
+                <li  class='active'><a href="tag.html"><span class='glyphicon glyphicon-tag'></span>标签管理</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        admin
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href="#bbs"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+
+<footer id='footer'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Copyright&nbsp;©&nbsp;2012-2015&nbsp;&nbsp;www.maiziedu.com&nbsp;&nbsp;蜀ICP备13014270号-4
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src='js/jquery-2.2.2.min.js'></script>
+<!--单页面导航插件-->
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='js/wow.min.js'></script>
+</body>
+</html>

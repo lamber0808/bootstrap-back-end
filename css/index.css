@@ -1,0 +1,22 @@
+body{
+    font-family:'微软雅黑';
+    padding-top: 70px;
+}
+.progress{
+    margin-bottom: 13px;
+}
+.media .active{
+    width: 64px;
+    height: 64px;
+}
+.mar_tr15{
+    margin-top: 15px;
+}
+.mar_tr26{
+    margin-top: 26px;
+}
+#footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
