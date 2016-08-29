@@ -1,3 +1,20 @@
 li标签用列表组
 
 pull-right 能文字右排序;
+
+list-group不但可以用在ul个li标签中,还可以用在div  a标签中就用list-group-time;
+
+pull-right 到右侧去;
+
+role='alert'
+
+form-control表单样式 可以用于select;
+
+role="button"让其他元素转为按钮;
+aria-labelledby有什么用呢 对应的id 下拉菜单
+
+表单属性
+input必备类名:form-control	
+表单一行的容器类名:form-group
+
+bootswatch.bootku.com
